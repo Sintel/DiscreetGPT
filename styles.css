@@ -1,0 +1,194 @@
+.orange-bar {
+    background-color: #F48225;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    display: flex;
+    height: 10px;
+    z-index: 499;
+}
+
+body {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.login-buttons{
+    margin-left: 50px;
+}
+
+
+.title-bar {
+    background-color: #F8F9F9;
+    /* Set the position of the title bar to fixed and stretch it to cover the whole width of the viewport */
+    position: fixed;
+    z-index: 500;
+    left: 0;
+    right: 0;
+    top: 1%;
+    /* Set the height and line-height to the same value */
+    height: 40px;
+    line-height: 50px;
+    /* Add padding to the title bar */
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: black;
+    
+}
+
+.right-side-content {
+    position: absolute;
+    margin-right: 50%;
+    margin-left: 0;
+    margin-top: 10%;
+    left: 74%;
+    right: 0;
+}
+
+.left-hand-content {
+    position: fixed;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 5%;
+    left: 0;
+    right: 0;
+}
+
+.left-hand-content img{
+    height: 700px;
+    margin-left: 20px
+}
+
+#logo {
+    height: 40px;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+#logins {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 90px;
+}
+
+.right-side-content img {
+    height: 400px;
+    margin-right: 50px
+}
+
+#hotnetwork {
+    height:800px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+
+.title-bar h5 {
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.search-container {
+    max-width:500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-wrapper {
+    display: flex;
+}
+
+#mytext {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    padding: 5px;
+    width: 500px;
+    margin-right: 20px;
+    
+}
+
+#chat-form{
+    display: flex;
+}
+
+.question img {
+    height:45px;
+}
+
+.questionbutton img {
+    margin-left: 210px;
+    height:50px;
+}
+
+.questionheader {
+    position: relative;
+    margin-right: 50%;
+    margin-left: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+.question h2{
+    margin-left: 10px;
+    word-wrap: break-word;
+}
+
+.question{
+    max-width: 650px;
+}
+
+.answerblock {
+    position: relative;
+    margin-right: 50%;
+    margin-left: 0;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+.answerblock img {
+    margin-left: 0;
+    height:200px;
+}
+
+.footer {
+    position: relative;
+    margin-right: 50%;
+    margin-left: 0;
+    left: 0;
+    right: 0;
+}
+
+#youranswer {
+    margin-left: 0;
+    height: 550px;
+}
+
+#tags {
+    margin-left: 10px;
+    height: 100px;
+}
+
+.mainelements {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 5%;
+    
+}
+
+#code {
+    overflow-y: scroll;
+    max-height: 50px;
+}
